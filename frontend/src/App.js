@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Upload, Sparkles, Mail, Edit, FileText, Send, CheckCircle, AlertCircle, Loader2, Copy, X } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8001'; // Updated to match backend port
+const API_BASE_URL = 'https://ai-summarizer-1-2nof.onrender.com'; // Updated to match backend port
 
 function App() {
   const [transcript, setTranscript] = useState('');
