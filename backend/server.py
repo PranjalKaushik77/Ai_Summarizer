@@ -22,7 +22,7 @@ app.add_middleware(
 
 # Google Generative AI API configuration
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDe82ONIQCaR5JfxZEp9Tr6v00ZquU3ifw")
-GOOGLE_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GOOGLE_API_KEY}"
+GOOGLE_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GOOGLE_API_KEY}"
 
 # In-memory storage for summaries (for this session only)
 summaries_store = {}
